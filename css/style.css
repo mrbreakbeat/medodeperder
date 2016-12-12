@@ -1802,7 +1802,7 @@ a.menu-toggle span {
 	-webkit-border-radius: 8px 0 0 8px;
 	-moz-border-radius: 8px 0 0 8px;
 	border-radius: 8px 0 0 8px;
-	background-color: rgba(255,255,255,.45);
+	background-color: rgba(255,255,255,.25);
 	background-clip: padding-box;
 	box-shadow: none;
 	color: #fff;
@@ -1829,7 +1829,7 @@ a.menu-toggle span {
 	position: relative;
 	overflow: hidden;
 	margin-left: 0;
-	width: 270px;
+	width: 365px;
 	height: 70px;
 	-webkit-border-radius: 0 8px 8px 0;
 	-moz-border-radius: 0 8px 8px 0;
@@ -1877,6 +1877,10 @@ a.menu-toggle span {
 .hero-subscribe-wrapper .helper-text-white {
 	display: block;
 	margin-top: 11px;
+	color: #ffffff;
+}
+
+.text-white {
 	color: #ffffff;
 }
 /* -- */
