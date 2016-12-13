@@ -381,7 +381,7 @@ section.breaking {
 }
 
 .two-blocks-col {
-	padding: 61px 80px 0;
+	padding: 64px 61px 0;
 }
 
 .no-padding {
@@ -1802,7 +1802,7 @@ a.menu-toggle span {
 	-webkit-border-radius: 8px 0 0 8px;
 	-moz-border-radius: 8px 0 0 8px;
 	border-radius: 8px 0 0 8px;
-	background-color: rgba(255,255,255,.25);
+	background-color: rgba(255,255,255,.15);
 	background-clip: padding-box;
 	box-shadow: none;
 	color: #fff;
