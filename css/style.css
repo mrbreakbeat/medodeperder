@@ -729,7 +729,7 @@ ul.checklist li:before {
 }
 
 .content-tab-wrapper .nav > li > a {
-	padding: 10px 20px;
+	padding: 10px 15px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	-webkit-transition: color .25s;
@@ -740,7 +740,7 @@ ul.checklist li:before {
 .content-tab-wrapper .nav-tabs > li.active:after {
 	position: absolute;
 	top: 99%;
-	left: 50%;
+	left: 40%;
 	width: 0;
 	height: 0;
 	border: solid rgba(0, 0, 0, 0);
@@ -1846,8 +1846,10 @@ a.menu-toggle span {
 .hero-subscribe-wrapper form .input-group .btn-subscribe:focus,
 .hero-subscribe-wrapper form .input-group .btn-subscribe:active {
 	outline: none;
-	background-color: #ed9903;
+	background-color: #d18600;
 	box-shadow: none;
+	-webkit-transition: all 0.6s;
+	transition: all 0.6s;
 }
 
 .hero-subscribe-wrapper form .input-group .btn-subscribe:before {
@@ -1856,16 +1858,15 @@ a.menu-toggle span {
 	left: 130%;
 	height: 100%;
 	color: #fff;
-	content: "\e62a";
 	font-size: 80%;
-	font-family: "Icomoon";
 	line-height: 2.7;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
+	background-color: #db8c00;
 }
 
 .hero-subscribe-wrapper form .input-group .btn-subscribe:hover:before {
-	left: 81%;
+	left: 100%;
 }
 
 .hero-subscribe-wrapper .helper-text {
