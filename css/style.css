@@ -381,7 +381,7 @@ section.breaking {
 }
 
 .two-blocks-col {
-	padding: 68px 80px 0;
+	padding: 61px 80px 0;
 }
 
 .no-padding {
@@ -3212,8 +3212,10 @@ ul.portfolio-list li.ext-link figure:focus img {
 #footer-subscribe .btn-subscribe:focus,
 #footer-subscribe .btn-subscribe:active {
 	outline: none;
-	background-color: #ed9903;
+	background-color: #d18600;
 	box-shadow: none;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
 }
 
 #footer-subscribe .btn-subscribe:before {
@@ -3222,9 +3224,7 @@ ul.portfolio-list li.ext-link figure:focus img {
 	left: 130%;
 	height: 100%;
 	color: #fff;
-	content: "\e62a";
 	font-size: 80%;
-	font-family: "Icomoon";
 	line-height: 2.9;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
