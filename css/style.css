@@ -713,7 +713,7 @@ ul.checklist li:before {
 }
 
 .content-tab-wrapper .nav-tabs > li > a:hover {
-	padding: 11px 21px;
+	padding: 11px 16px;
 	border: none;
 	background: none;
 	color: #222;
@@ -722,14 +722,14 @@ ul.checklist li:before {
 .content-tab-wrapper .nav-tabs > li.active > a,
 .content-tab-wrapper .nav-tabs > li.active > a:focus,
 .content-tab-wrapper .nav-tabs > li.active > a:hover {
-	padding: 11px 21px;
+	padding: 11px 16px;
 	border: none;
 	background: none;
 	color: #222;
 }
 
 .content-tab-wrapper .nav > li > a {
-	padding: 10px 15px;
+	padding: 10px 16px;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	-webkit-transition: color .25s;
@@ -1277,7 +1277,7 @@ a.overlay-close:hover {
 	padding: 22px;
 	width: 100%;
 	font-size: 90%;
-	line-height: 1.4;
+	line-height: 3.8;
 	-webkit-transition: all 0.27s ease-in-out;
 	transition: all 0.27s ease-in-out;
 	-webkit-transform: translateY(-200%);
@@ -1320,7 +1320,7 @@ a.overlay-close:hover {
 
 .notif-box a.notification-close {
 	position: absolute;
-	top: 15%;
+	top: 25%;
 	right: 1em;
 	width: 48px;
 	height: 48px;
@@ -2450,7 +2450,7 @@ ul.how-it-works-col li:last-child:hover {
 
 /* 8.1 Featurettes Quote */
 .featurettes-quote-wrapper {
-	background: url(../images/stocks/freezer.jpg) no-repeat center center;
+	background: url(../images/stocks/droplets.jpg) no-repeat center center;
 	background-size: cover;
 	height: 500px;
 }
@@ -3189,6 +3189,23 @@ ul.portfolio-list li.ext-link figure:focus img {
 	box-shadow: none;
 	color: #fff;
 	font-size: 16px;
+}
+
+#footer-subscribe .input-email-person {
+	padding: 20px;
+	max-width: 65% !important;
+	height: 50px;
+	border: none;
+	-webkit-border-radius: 8px !important;
+	-moz-border-radius: 8px !important;
+	border-radius: 8px !important;
+	background-color: rgba(255, 255, 255, 0.25);
+	background-clip: padding-box;
+	box-shadow: none;
+	color: #fff;
+	font-size: 16px;
+	margin: 0 auto !important;
+	text-align: center;
 }
 
 #footer-subscribe .btn-subscribe {
