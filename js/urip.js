@@ -187,9 +187,11 @@ $(document).ready(function(){
 	// callback function when the form submitted, show the notification box
 	function mailchimpCallback(resp) {
         if (resp.result === 'success') {
+				  	$('.activesuccess').fadeIn(200);
             $('#subscribe-success-notification').addClass('show-up');
         }
         else if (resp.result === 'error') {
+					   $('.activeerror').fadeIn(200);
              $('#subscribe-error-notification').addClass('show-up');
         }
     }
@@ -442,6 +444,7 @@ $(document).ready(function(){
 	// Function to close the Notification
     $('a.notification-close').click(function(){
 	    $(this).parent('div').fadeOut(200);
+			$(this).parent('div').removeClass('show-up');
     });
 
 
