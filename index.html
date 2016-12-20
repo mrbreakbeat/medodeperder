@@ -153,10 +153,10 @@
 										<div class="row">
 											<div class="hero-subscribe-wrapper col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
 
-												<form id="hero-subscribe" class="the-subscribe-form" data-sr="enter bottom over .5s and move 10px wait 0.3s">
+												<form id="hero-subscribe" class="mailgun" data-sr="enter bottom over .5s and move 10px wait 0.3s">
 
 													<div class="input-group">
-														<input type="email" class="form-control" placeholder="Deixe seu e-mail aqui!!">
+														<input type="email" class="form-control" placeholder="Deixe seu e-mail aqui!!" name="email">
 														<span class="input-group-btn">
 															<button class="btn btn-subscribe" id="header-subscribe" type="submit">Quero Evitar Perdas</button>
 														</span>
@@ -314,8 +314,8 @@
 
 												<div class="clearfix"></div>
 
-												<form id="footer-subscribe" class="the-subscribe-form" novalidate="true">
-													<input type="email" class="form-control input-email-person" placeholder="Deixe seu e-mail aqui!">
+												<form id="footer-subscribe" class="mailgun" novalidate="true">
+													<input type="email" class="form-control input-email-person" placeholder="Deixe seu e-mail aqui!" name="email">
 													<div class="input-group" style="margin:0 auto;">
 														<button class="cta cta-default all-caps clearfix" id="header-subscribe" style="border:none;" data-sr="enter bottom over 1s and move 75px"type="submit">Quero Evitar Perdas</button>
 												</form> <!--/ #footer-subscribe -->
@@ -516,10 +516,10 @@
 
 									<p>Faça um diagnóstico gratuitamente com um de nossos especialistas</p>
 
-									<form id="footer-subscribe" class="the-subscribe-form">
+									<form id="footer-subscribe" class="mailgun">
 
 										<div class="input-group">
-											<input type="email" class="form-control" placeholder="Deixe seu e-mail aqui!">
+											<input type="email" class="form-control" placeholder="Deixe seu e-mail aqui!" name="email">
 											<span class="input-group-btn">
 												<button class="btn btn-subscribe all-caps" type="submit">Quero Evitar Perdas</button>
 											</span>
@@ -766,6 +766,9 @@
 
 		<!-- AjaxChimp -->
 		<script src="js/minified/jquery.ajaxchimp.min.js"></script>
+
+		<!-- AjaxMailGun -->
+		<script src="js/jquery.ajaxmailgun.js"></script>
 
 		<!-- Swipebox -->
 		<script src="js/minified/jquery.swipebox.min.js"></script>

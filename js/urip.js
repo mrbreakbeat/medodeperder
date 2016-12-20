@@ -181,6 +181,7 @@ $(document).ready(function(){
 	$('.the-subscribe-form').ajaxChimp({
 		callback: mailchimpCallback,
 	    url: 'https://worksofwisnu.us6.list-manage.com/subscribe/post?u=b57b4e6ae38c92ac22d92a234&amp;id=17754c49aa'
+			//url: 'https://api.mailgun.net/v3/sandboxd293701160924c60b1dc9aa5a702f823.mailgun.org/messages'
 	    // Replace the URL above with your mailchimp URL (put your URL inside '').
 	});
 
