@@ -39,11 +39,12 @@ function sendMailgun($data) {
   $api_domain = 'sandboxd293701160924c60b1dc9aa5a702f823.mailgun.org';
   $send_to = 'sergio.silva.unb@gmail.com';
 
-  //$name = $data['name'];
+  $name = $data['name'] = "Sérgio Silva";
   $email = $data['email'];
-  //$content = $data['message'];
+  $content = $data['message'] = "Qualquer coisa que não seja importante";
 
-  $messageBody = "Contact: $name ($email)\n\nMessage: $content";
+  $messageBody = "Contato: $name $email\n\nMensagem: $content";
+
 
   $config = array();
   $config['api_key'] = $api_key;
