@@ -1750,7 +1750,7 @@ a.menu-toggle span {
 }
 
 .hero-form-layout #hero {
-	background: url(../images/stocks/stock3.jpg) no-repeat center center fixed;
+	/*background: url(../images/stocks/stock3.jpg) no-repeat center center fixed;*/
 }
 
 .app-layout #hero {
@@ -2350,7 +2350,7 @@ ul.how-it-works-col li:nth-child(2):hover {
 }
 
 ul.how-it-works-col li:last-child:hover {
-	background: url(../images/stocks/stock3.jpg) no-repeat center center;
+	/*background: url(../images/stocks/stock3.jpg) no-repeat center center;*/
 }
 
 /**
