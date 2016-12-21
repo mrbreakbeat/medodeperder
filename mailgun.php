@@ -54,7 +54,7 @@ function sendMailgun($data) {
   $message['from'] = $email;
   $message['to'] = $send_to;
   $message['h:Reply-To'] = $email;
-  $message['subject'] = $data['subject'];
+  $message['subject'] = $data['subject'] = "Pare de Perder Produtos por Motivos de Temperatura";
   $message['text'] = $messageBody;
 
   $curl = curl_init();
