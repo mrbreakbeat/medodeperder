@@ -5,9 +5,9 @@ use Mailgun\Mailgun;
 
 include 'mailgun-settings.php';
 
-$name = $_POST['name'];
+//$name = $_POST['name'];
 $email = $_POST['email'];
-$message = $_POST['message'];
+//$message = $_POST['message'];
 
 // Update in version 1.1 - added validation to stop blank emails
 if ($email){
@@ -17,15 +17,13 @@ if ($email){
 
     # Make the call to the client.
     $result = $mgClient->sendMessage("$domain",
-                      array('from'    => "Contato do site <atendimento@$mailgunDomain>",
+                      array('from'    => "Contato do site <sergio.silva.unb@$mailgunDomain>",
                             'to'      => $yourEmail,
                             'subject' => 'Contato feito pelo site',
-                            'html'    => 'Ola!,<br><br>, alguem chamado '.$name.', <br><br>com o e-mail -'.$email.' <br><br>Enviou a seguinte mensagem do website da velum.:<br><br>'.$message));
+                            'html'    => 'Ola!,<br><br>, alguem chamado <br><br>com o e-mail -'.$email.' <br><br>Enviou a seguinte mensagem do website da velum.:<br><br>'));
 
 
     $result = $mgClient->sendMessage("$domain",
-                      array('from'    => "$fromName <atendimento@$mailgunDomain>",
-                            'to'      => $email,
-                            'subject' => $subject,
-                            'html'    => "Olá $name,<br><br>".$thankYouMsg));
+                      array('from'    => "$fromName <sergio.silva.unb@$mailgunDomain>",
+                            'to'      => $email));
 }

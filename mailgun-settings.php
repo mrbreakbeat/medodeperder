@@ -14,7 +14,7 @@
 */
 
 $mailgunKey = 'key-fe2c5b046d9fdd70458fc8cb85d4929a'; //Will be like key-........
-$mailgunDomain = 'sandboxd293701160924c60b1dc9aa5a702f823.mailgun.org'; //You can use sandbox domain provided by mailgun
+$mailgunDomain = 'medodeperder.com.br'; //You can use sandbox domain provided by mailgun
 
 
 // Your details to receive email from end-user
