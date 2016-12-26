@@ -1,4 +1,6 @@
 <?php
+$email = $_POST['email'];
+
 if(empty($_POST) || !isset($_POST)) {
 
   ajaxResponse('error', 'Post cannot be empty.');
@@ -20,6 +22,16 @@ if(empty($_POST) || !isset($_POST)) {
 
   }
 
+  if($mailgun1) {
+
+    ajaxResponse('success', 'Great success.', $postData, $mailgun1);
+
+  } else {
+
+    ajaxResponse('error', 'Mailgun did not connect properly.', $postData, $mailgun1);
+
+  }
+
 }
 
 function ajaxResponse($status, $message, $data = NULL, $mg = NULL) {
@@ -36,7 +48,7 @@ function ajaxResponse($status, $message, $data = NULL, $mg = NULL) {
 function sendMailgun($data) {
 
   $api_key = 'key-fe2c5b046d9fdd70458fc8cb85d4929a';
-  $api_domain = 'sandboxd293701160924c60b1dc9aa5a702f823.mailgun.org';
+  $api_domain = 'medodeperder.com.br';
   $send_to = 'sergio.silva.unb@gmail.com';
 
   $name = $data['name'] = "Sérgio Silva";

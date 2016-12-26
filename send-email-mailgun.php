@@ -25,5 +25,6 @@ if ($email){
 
     $result = $mgClient->sendMessage("$domain",
                       array('from'    => "$fromName <sergio.silva.unb@$mailgunDomain>",
-                            'to'      => $email));
+                            'to'      => $email,
+                            'html'    => "Olá $name,<br><br>".$thankYouMsg));
 }
